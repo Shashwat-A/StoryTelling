@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Text, View , SafeAreaView, Platform, StyleSheet, Image, StatusBar} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
 import AppLoading from 'expo-app-loading';
-import * as Font from 'expo-font'
+import * as Font from 'expo-font';
+import StoryCard from './StoryCard'
 
 let customFont = {
     'Bubblegum-Sans': require('../assets/fonts/BubblegumSans-Regular.ttf')
